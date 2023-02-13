@@ -1,0 +1,141 @@
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+a{
+  text-decoration:none;
+  color: #FCFCFC;
+}
+
+.navbar-nav{
+  width:200px;
+}
+
+.navbar-nav a:hover {
+    color: #1abc9c !important;
+}
+
+#home{
+  position : relative;
+  font-size: 13px;
+  top : -103px;
+  left: 685px;
+}
+
+#about{
+  position : relative;
+  top : -129px;
+  left: 785px;
+}
+
+#contact{
+  position : relative;
+  top : -155px;
+  left: 935px;
+}
+
+.btn-compose{
+  background-color: #ECF618;
+  position:relative;
+  padding: 15px 15px;
+  top : -200px;
+  left: 1425px;
+  display: inline-block;
+  cursor: pointer;
+  color:#011226;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 0;
+  transition-duration: 0.4s;
+  font-family: "Times New Roman";
+  letter-spacing: 3px;
+}
+
+.btn-compose:hover{
+  box-shadow: 0 7px 8px 0 rgba(150,0,0,0), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #011226;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.navbar-brand{
+  height: 160px;
+  width:160px;
+  background-color: #011226;
+  padding-top: 0;
+  padding-left: 155px;
+  margin: 0;
+  border: 0;
+  top: 0;
+}
+
+.navbar-header{
+  background-color: #011226;
+  padding-top: 0;
+  margin: 0;
+  border: 0;
+  top: 0;
+}
+
+body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.section-heading{
+  position:relative;
+  top:-150px;
+  padding-left: 155px;
+}
+
+.btn-publish{
+  background-color: #ECF618;
+  padding: 10px 25px;
+  display: inline-block;
+  cursor: pointer;
+  color:#011226;
+  font-size: 20px;
+  border-radius: 12px;
+  border: 0;
+  font-family: "Times New Roman";
+  transition-duration: 0.4s;
+}
+
+.btn-publish:hover{
+  box-shadow: 0 7px 8px 0 rgba(150,0,0,0), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

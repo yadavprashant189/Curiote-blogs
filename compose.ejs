@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+<h1 class="section-heading">Compose</h1>
+<form class="section-heading" action="/compose" method="post">
+
+  <label style="font-size:20px;"><b>Title</b></label>
+  <br />
+  <br />
+  <input type="text" name="postTitle" style="width:1380px ; height:30px; border-radius: 5px; font-size:18px;"/>
+  <br />
+  <br />
+  <br />
+  <label style="font-size:20px;"><b>Content</b></label>
+  <br />
+  <br />
+  <textarea name="postBody" rows="8" cols="80" style="width:1380px; border-radius: 5px; font-size:18px;"></textarea>
+  <br />
+  <br />
+  <br />
+  <button class="btn-publish" type="submit" name="button">Let's go!</button>
+</form>
+<%- include("partials/footer"); -%>
